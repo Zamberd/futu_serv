@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<!-- TODO : Common API 
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Plugin.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/webapi/1.0/webapis.js"></script>
+		<!-- TODO : Javascript code -->
+
+
+		<!--<script src="js/lib/hls.js"></script>-->
+
+		<!--<script src="js/lib/hlsLast.js"></script>-->
+
+		<script src="js/lib/jquery-3.2.1.min.js"></script>
+    	<script src="js/lib/moment.js"></script>
+    	<script src="js/lib/moment-timezone-with-data.min.js"></script>
+    	<script src="js/APIService.js"></script>
+
+    	<script src="js/lib/functions.js"></script>
+    	<script src="js/history.js"></script>
+	    <script src="js/listBase.js"></script>
+		<script src="js/locale.js"></script>
+
+		<script src="js/loadbar.js"></script>
+		<script src="js/keyboard.js"></script>
+		<script src="js/check_key.js"></script>
+		<script src="js/message.js"></script>
+		<script src="js/auth.js"></script>
+		<script src="js/programs.js"></script>
+
+		<script src="js/setting/Settings.js"></script>
+		<script src="js/setting/Slanguage.js"></script>
+		<script src="js/setting/Ssetting.js"></script>
+
+		<script src="js/infoBlock.js"></script>
+    	<script src="js/MainControl.js"></script>
+    	<script src="js/TV/tv.js"></script>
+    	<script src="js/TV/TVCategory.js"></script>
+    	<script src="js/TV/TVChannels.js"></script>
+    	<script src="js/TV/TVPrograms.js"></script>
+
+		<script src="js/main.js"></script>
+		<script src="js/player.js"></script>
+		<!-- TODO: Plugins -->
+	
+
+	</head>
+
+	<body>
+
+		<!--
+<h1 style="position: absolute; color: white; z-index: 99999;">----------</h1>
+<h2 style="position: absolute; color: white; z-index: 99999;">debug11</h2>
+		Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main1.keyDown();"></a>
+	<div id="menu"><div id="window">
+        <div id="category" class="column"></div>
+        <div class="brLeft " id="br1"></div>
+        <div id="channel" class="column"></div>
+        <div class="brRight " id="br2"></div>
+        <div id="program" class="column"> </div>
+    </div></div>
+	<div id="programContainer">
+		<div class="titlePrograms">
+			<div class="logo"></div>
+			<div class="text titleDate" ></div>
+			<div class="text clock"></div>
+		</div>
+		<div id="programs" class="column"> </div>
+	</div>
+    <div id="player">
+        <div id="info">
+
+        </div>
+        <div id="bar">
+
+        </div>
+    </div>
+    
+    <div id="settings" class="settings transform" style="display: none;">
+		<div class="settingCol column" id="settingCol"></div>
+		<div class="brRight active" id="lang_br1"></div>
+        <div class="settingCol column" id="profile"></div>
+		<div class="settingCol column" id="language" style="display: none;"></div>
+	</div>
+    <div id="splashScreen"></div>
+	<div class="aspectRatio"></div>
+	<div class="video"></div>
+	
+	</body>
+</html>
