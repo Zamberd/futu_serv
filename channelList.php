@@ -20,7 +20,9 @@ if($result) {
             "id" => $row['id'],
             "title" => $row['title'],
             "genres"=> [1],
-            "genre" => "Мульт"
+            "genre" => "Мульт",
+            "is_free" => true,
+            "channel_parental_protect" => false,
         ]);
 
 //        echo "Номер: ".$row['id']."<br>\n";
